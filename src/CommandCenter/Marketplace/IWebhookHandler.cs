@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace CommandCenter.Webhook
+namespace CommandCenter.Marketplace
 {
     public interface IWebhookHandler
     {

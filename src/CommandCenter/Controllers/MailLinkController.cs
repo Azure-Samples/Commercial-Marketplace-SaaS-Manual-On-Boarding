@@ -12,10 +12,12 @@ namespace CommandCenter.Controllers
     [Authorize("CommandCenterAdmin")]
     public class MailLinkController : Controller
     {
+        private readonly IMarketplaceProcessor marketplaceProcessor;
         private readonly IMarketplaceClient marketplaceClient;
 
-        public MailLinkController(IMarketplaceClient marketplaceClient)
+        public MailLinkController(IMarketplaceProcessor marketplaceProcessor, IMarketplaceClient marketplaceClient)
         {
+            this.marketplaceProcessor = marketplaceProcessor;
             this.marketplaceClient = marketplaceClient;
         }
 
@@ -24,13 +26,7 @@ namespace CommandCenter.Controllers
             NotificationModel notificationModel,
             CancellationToken cancellationToken)
         {
-            await marketplaceClient.Fulfillment.ActivateSubscriptionAsync(
-                notificationModel.SubscriptionId,
-                null,
-                null,
-                notificationModel.PlanId,
-                null,
-                cancellationToken);
+            await this.marketplaceProcessor.ActivateSubscriptionAsync(notificationModel.SubscriptionId, notificationModel.PlanId, cancellationToken);
 
             return View(
                 new ActivateActionViewModel
@@ -44,7 +40,7 @@ namespace CommandCenter.Controllers
             NotificationModel notificationModel,
             CancellationToken cancellationToken)
         {
-            await UpdateOperationAsync(notificationModel, cancellationToken);
+            await OperationAckAsync(notificationModel, cancellationToken);
 
             return View("OperationUpdate", notificationModel);
         }
@@ -54,7 +50,7 @@ namespace CommandCenter.Controllers
             NotificationModel notificationModel,
             CancellationToken cancellationToken)
         {
-            await UpdateOperationAsync(notificationModel, cancellationToken);
+            await OperationAckAsync(notificationModel, cancellationToken);
 
             return View("OperationUpdate", notificationModel);
         }
@@ -64,7 +60,7 @@ namespace CommandCenter.Controllers
             NotificationModel notificationModel,
             CancellationToken cancellationToken)
         {
-            await UpdateOperationAsync(notificationModel, cancellationToken);
+            await OperationAckAsync(notificationModel, cancellationToken);
 
             return View("OperationUpdate", notificationModel);
         }
@@ -74,7 +70,7 @@ namespace CommandCenter.Controllers
             NotificationModel notificationModel,
             CancellationToken cancellationToken)
         {
-            await UpdateOperationAsync(notificationModel, cancellationToken);
+            await OperationAckAsync(notificationModel, cancellationToken);
 
             return View("OperationUpdate", notificationModel);
         }
@@ -97,19 +93,11 @@ namespace CommandCenter.Controllers
                 });
         }
 
-        private async Task UpdateOperationAsync(
+        private async Task OperationAckAsync(
             NotificationModel payload,
             CancellationToken cancellationToken)
         {
-            await marketplaceClient.SubscriptionOperations.UpdateOperationStatusAsync(
-                payload.SubscriptionId,
-                payload.OperationId,
-                null,
-                null,
-                payload.PlanId,
-                payload.Quantity,
-                UpdateOperationStatusEnum.Success,
-                cancellationToken);
+            await this.marketplaceProcessor.OperationAckAsync(payload.SubscriptionId, payload.OperationId, payload.PlanId, payload.Quantity, cancellationToken);
         }
     }
 }

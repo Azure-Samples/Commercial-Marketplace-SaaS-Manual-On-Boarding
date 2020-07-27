@@ -1,4 +1,4 @@
-﻿namespace CommandCenter.Webhook
+﻿namespace CommandCenter.Marketplace
 {
     public enum WebhookAction
     {

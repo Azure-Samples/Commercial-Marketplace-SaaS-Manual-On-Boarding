@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using CommandCenter.Marketplace;
 using CommandCenter.Webhook;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -14,29 +16,28 @@ namespace CommandCenter.Controllers
     //[AllowAnonymous]
     public class WebHookController : Controller
     {
+        private readonly IMarketplaceProcessor marketplaceProcessor;
         private readonly ILogger<WebHookController> logger;
 
         private readonly CommandCenterOptions options;
 
-        private readonly IWebhookProcessor webhookProcessor;
-
         public WebHookController(
-            IWebhookProcessor webhookProcessor,
             IOptionsMonitor<CommandCenterOptions> optionsMonitor,
+            IMarketplaceProcessor marketplaceProcessor,
             ILogger<WebHookController> logger)
         {
-            this.webhookProcessor = webhookProcessor;
+            this.marketplaceProcessor = marketplaceProcessor;
             this.logger = logger;
             options = optionsMonitor.CurrentValue;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Index([FromBody] WebhookPayload payload)
+        public async Task<IActionResult> Index([FromBody] WebhookPayload payload, CancellationToken cancellationToken)
         {
             // Options is injected as a singleton. This is not a good hack, but need to pass the host name and port
             logger.LogInformation($"Received webhook request: {JsonConvert.SerializeObject(payload)}");
 
-            await webhookProcessor.ProcessWebhookNotificationAsync(payload);
+            await this.marketplaceProcessor.ProcessWebhookNotificationAsync(payload, cancellationToken);
 
             return Ok();
         }

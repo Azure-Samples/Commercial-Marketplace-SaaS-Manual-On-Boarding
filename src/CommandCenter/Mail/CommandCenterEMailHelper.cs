@@ -43,7 +43,7 @@ namespace CommandCenter.Mail
                 cancellationToken);
         }
 
-        public async Task ProcessActivateAsync(
+        public async Task ProcessNewSubscriptionAsyc(
             AzureSubscriptionProvisionModel provisionModel,
             CancellationToken cancellationToken = default)
         {
@@ -199,7 +199,7 @@ namespace CommandCenter.Mail
 
             msg.SetFrom(new EmailAddress(options.Mail.FromEmail, "Marketplace command center"));
 
-            var recipients = new List<EmailAddress> {new EmailAddress(options.Mail.OperationsTeamEmail)};
+            var recipients = new List<EmailAddress> { new EmailAddress(options.Mail.OperationsTeamEmail) };
 
             msg.AddTos(recipients);
 

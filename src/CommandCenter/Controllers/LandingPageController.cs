@@ -19,41 +19,23 @@ namespace CommandCenter.Controllers
     public class LandingPageController : Controller
     {
         private readonly ILogger<LandingPageController> logger;
-        private readonly IMarketplaceClient marketplaceClient;
+        private readonly IMarketplaceProcessor marketplaceProcessor;
         private readonly IMarketplaceNotificationHandler notificationHandler;
-
+        private readonly IMarketplaceClient marketplaceClient;
         private readonly CommandCenterOptions options;
 
         public LandingPageController(
             IOptionsMonitor<CommandCenterOptions> commandCenterOptions,
-            IMarketplaceClient marketplaceClient,
+            IMarketplaceProcessor marketplaceProcessor,
             IMarketplaceNotificationHandler notificationHandler,
+            IMarketplaceClient marketplaceClient,
             ILogger<LandingPageController> logger)
         {
-            this.marketplaceClient = marketplaceClient;
+            this.marketplaceProcessor = marketplaceProcessor;
             this.notificationHandler = notificationHandler;
+            this.marketplaceClient = marketplaceClient;
             this.logger = logger;
             options = commandCenterOptions.CurrentValue;
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Index(
-            AzureSubscriptionProvisionModel provisionModel,
-            CancellationToken cancellationToken)
-        {
-            var urlBase = $"{Request.Scheme}://{Request.Host}";
-            options.BaseUrl = urlBase;
-            try
-            {
-                await ProcessLandingPageAsync(provisionModel, cancellationToken);
-
-                return RedirectToAction(nameof(Success));
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex);
-            }
         }
 
         // GET: LandingPage
@@ -65,36 +47,10 @@ namespace CommandCenter.Controllers
                 return View();
             }
 
-            var provisioningModel = await BuildLandingPageModel(token, cancellationToken);
+            // Get the subscription for the offer from the marketplace purchase identification token
+            var resolvedSubscription = await this.marketplaceProcessor.GetSubscriptionFromPurchaseIdentificationTokenAsync(token, cancellationToken);
 
-            if (provisioningModel != default)
-            {
-                provisioningModel.FullName = (User.Identity as ClaimsIdentity)?.FindFirst("name")?.Value;
-                provisioningModel.Email = User.Identity.GetUserEmail();
-                provisioningModel.BusinessUnitContactEmail = User.Identity.GetUserEmail();
-
-                return View(provisioningModel);
-            }
-
-            ModelState.AddModelError(string.Empty, "Cannot resolve subscription");
-            return View();
-        }
-
-        public ActionResult Success()
-        {
-            return View();
-        }
-
-        private async Task<AzureSubscriptionProvisionModel> BuildLandingPageModel(
-            string token,
-            CancellationToken cancellationToken)
-        {
-            var resolvedSubscription = await marketplaceClient.Fulfillment.ResolveAsync(
-                token,
-                null,
-                null,
-                cancellationToken);
-
+            // Rest is implementation detail. In this sample, we chose allow the subscriber to change the plan for an activated subscriptio
             if (resolvedSubscription == default(ResolvedSubscription)) return default;
 
             var existingSubscription = resolvedSubscription.Subscription;
@@ -128,18 +84,44 @@ namespace CommandCenter.Controllers
                 PendingOperations = pendingOperations.Operations.Any(o => o.Status == OperationStatusEnum.InProgress)
             };
 
-            return provisioningModel;
+            if (provisioningModel != default)
+            {
+                provisioningModel.FullName = (User.Identity as ClaimsIdentity)?.FindFirst("name")?.Value;
+                provisioningModel.Email = User.Identity.GetUserEmail();
+                provisioningModel.BusinessUnitContactEmail = User.Identity.GetUserEmail();
+
+                return View(provisioningModel);
+            }
+
+            ModelState.AddModelError(string.Empty, "Cannot resolve subscription");
+            return View();
         }
 
-        private async Task ProcessLandingPageAsync(
-            AzureSubscriptionProvisionModel provisionModel,
-            CancellationToken cancellationToken)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Index(AzureSubscriptionProvisionModel provisionModel, CancellationToken cancellationToken)
         {
-            // A new subscription will have PendingFulfillmentStart as status
-            if (provisionModel.SubscriptionStatus == SubscriptionStatusEnum.PendingFulfillmentStart)
-                await notificationHandler.ProcessActivateAsync(provisionModel, cancellationToken);
-            else
-                await notificationHandler.ProcessChangePlanAsync(provisionModel, cancellationToken);
+            var urlBase = $"{Request.Scheme}://{Request.Host}";
+            options.BaseUrl = urlBase;
+            try
+            {
+                // A new subscription will have PendingFulfillmentStart as status
+                if (provisionModel.SubscriptionStatus == SubscriptionStatusEnum.PendingFulfillmentStart)
+                    await notificationHandler.ProcessNewSubscriptionAsyc(provisionModel, cancellationToken);
+                else
+                    await notificationHandler.ProcessChangePlanAsync(provisionModel, cancellationToken);
+
+                return RedirectToAction(nameof(Success));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        public ActionResult Success()
+        {
+            return View();
         }
     }
 }

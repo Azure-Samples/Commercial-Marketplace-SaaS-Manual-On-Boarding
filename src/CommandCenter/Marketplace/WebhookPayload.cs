@@ -2,7 +2,7 @@
 using Microsoft.Marketplace.Models;
 using Newtonsoft.Json;
 
-namespace CommandCenter.Webhook
+namespace CommandCenter.Marketplace
 {
     public class WebhookPayload
     {
