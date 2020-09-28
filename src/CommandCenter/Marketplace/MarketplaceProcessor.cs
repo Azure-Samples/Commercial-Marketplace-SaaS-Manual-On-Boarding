@@ -1,24 +1,34 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using CommandCenter.Webhook;
-using Microsoft.Extensions.Logging;
-using Microsoft.Marketplace;
-using Microsoft.Marketplace.Models;
-using Newtonsoft.Json;
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 namespace CommandCenter.Marketplace
 {
+    using System;
+    using System.ComponentModel;
+    using System.Threading;
+    using System.Threading.Tasks;
+    using Microsoft.Extensions.Logging;
+    using Microsoft.Marketplace.SaaS;
+    using Microsoft.Marketplace.SaaS.Models;
+    using Newtonsoft.Json;
+
     /// <summary>
-    /// Implements the protocol aspect of the fulfillment API
+    /// Implements the protocol aspect of the fulfillment API.
     /// </summary>
     public class MarketplaceProcessor : IMarketplaceProcessor
     {
         private readonly ILogger<MarketplaceProcessor> logger;
-        private readonly IMarketplaceClient marketplaceClient;
+        private readonly IMarketplaceSaaSClient marketplaceClient;
         private readonly IWebhookHandler webhookHandler;
 
-        public MarketplaceProcessor(IMarketplaceClient marketplaceClient,
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MarketplaceProcessor"/> class.
+        /// </summary>
+        /// <param name="marketplaceClient">Marketplace API client.</param>
+        /// <param name="webhookHandler">Webhook handler.</param>
+        /// <param name="logger">Logger.</param>
+        public MarketplaceProcessor(
+            IMarketplaceSaaSClient marketplaceClient,
             IWebhookHandler webhookHandler,
             ILogger<MarketplaceProcessor> logger)
         {
@@ -28,18 +38,21 @@ namespace CommandCenter.Marketplace
             this.marketplaceClient = marketplaceClient;
         }
 
+        /// <inheritdoc/>
         public async Task ActivateSubscriptionAsync(Guid subscriptionId, string planId, CancellationToken cancellationToken)
         {
-            await this.marketplaceClient.Fulfillment.ActivateSubscriptionAsync(subscriptionId,
+            await this.marketplaceClient.FulfillmentOperations.ActivateSubscriptionAsync(
+                subscriptionId,
                 null,
                 null,
                 planId,
                 null,
-                cancellationToken);
-            
+                cancellationToken).ConfigureAwait(false);
+
             this.logger.LogInformation($"Activated subscription {subscriptionId} with plan {planId}");
         }
 
+        /// <inheritdoc/>
         public async Task<ResolvedSubscription> GetSubscriptionFromPurchaseIdentificationTokenAsync(string token, CancellationToken cancellationToken)
         {
             if (token == default)
@@ -47,18 +60,19 @@ namespace CommandCenter.Marketplace
                 throw new ApplicationException("marketplace purchase identification token is empty");
             }
 
-            var resolvedSubscription = await this.marketplaceClient.Fulfillment.ResolveAsync(token, null, null, cancellationToken);
-        
+            var resolvedSubscription = await this.marketplaceClient.FulfillmentOperations.ResolveAsync(token, null, null, cancellationToken).ConfigureAwait(false);
+
             this.logger.LogInformation($"Resolved subscription {resolvedSubscription.Id} with plan {resolvedSubscription.PlanId}");
-            
+
             return resolvedSubscription;
         }
 
+        /// <inheritdoc/>
         public async Task OperationAckAsync(Guid subscriptionId, Guid operationId, string planId, int quantity, CancellationToken cancellationToken)
         {
             this.logger.LogInformation($"Ackonwledging operation {operationId} for subscription {subscriptionId}");
 
-            await marketplaceClient.SubscriptionOperations.UpdateOperationStatusAsync(
+            await this.marketplaceClient.SubscriptionOperations.UpdateOperationStatusAsync(
                     subscriptionId,
                     operationId,
                     null,
@@ -66,22 +80,28 @@ namespace CommandCenter.Marketplace
                     planId,
                     quantity,
                     UpdateOperationStatusEnum.Success,
-                    cancellationToken);
+                    cancellationToken).ConfigureAwait(false);
         }
 
+        /// <inheritdoc/>
         public async Task ProcessWebhookNotificationAsync(WebhookPayload payload, CancellationToken cancellationToken)
         {
+            if (payload == null)
+            {
+                throw new ArgumentNullException(nameof(payload));
+            }
+
             // Always query the fulfillment API for the received Operation for security reasons. Webhook endpoint is not authenticated.
-            var operationDetails = await marketplaceClient.SubscriptionOperations.GetOperationStatusAsync(
+            var operationDetails = await this.marketplaceClient.SubscriptionOperations.GetOperationStatusAsync(
                 payload.SubscriptionId,
                 payload.OperationId,
                 null,
                 null,
-                cancellationToken);
+                cancellationToken).ConfigureAwait(false);
 
             if (operationDetails == null)
             {
-                logger.LogError(
+                this.logger.LogError(
                     $"Operation query returned {JsonConvert.SerializeObject(operationDetails)} for subscription {payload.SubscriptionId} operation {payload.OperationId}");
                 return;
             }
@@ -91,29 +111,29 @@ namespace CommandCenter.Marketplace
             switch (payload.Action)
             {
                 case WebhookAction.Unsubscribe:
-                    await webhookHandler.UnsubscribedAsync(payload);
+                    await this.webhookHandler.UnsubscribedAsync(payload).ConfigureAwait(false);
                     break;
 
                 case WebhookAction.ChangePlan:
-                    await webhookHandler.ChangePlanAsync(payload);
+                    await this.webhookHandler.ChangePlanAsync(payload).ConfigureAwait(false);
                     break;
 
                 case WebhookAction.ChangeQuantity:
-                    await webhookHandler.ChangeQuantityAsync(payload);
+                    await this.webhookHandler.ChangeQuantityAsync(payload).ConfigureAwait(false);
                     break;
 
                 case WebhookAction.Suspend:
-                    await webhookHandler.SuspendedAsync(payload);
+                    await this.webhookHandler.SuspendedAsync(payload).ConfigureAwait(false);
                     break;
 
                 case WebhookAction.Reinstate:
-                    await webhookHandler.ReinstatedAsync(payload);
+                    await this.webhookHandler.ReinstatedAsync(payload).ConfigureAwait(false);
                     break;
 
                 case WebhookAction.Transfer:
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException();
+                    throw new InvalidEnumArgumentException();
             }
         }
     }
