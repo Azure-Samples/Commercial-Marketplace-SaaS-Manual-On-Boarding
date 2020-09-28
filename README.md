@@ -76,9 +76,7 @@ In the sections below you will find:
       - [Resell Through CSPs](#resell-through-csps)
       - [Review and Publish](#review-and-publish)
   - [Signing Up for Your Offer](#signing-up-for-your-offer)
-  - [Notes](#notes)
-    - [Secrets](#secrets)
-      - [An experimental API client, and webhook processor helper](#an-experimental-api-client-and-webhook-processor-helper)
+
 
 Let's first start with mentioning how to integrate a SaaS solution with Azure
 Marketplace.
@@ -673,29 +671,4 @@ Customer searches for the offer on Azure Portal
 
     ![purchaser10](./ReadmeFiles/Purchaser10.png)
 
-## Notes
 
-### Secrets
-
-Secrets such as API keys are managed through "dotnet user-secrets" command. For
-example, to set the value for "FulfillmentClient:AzureActiveDirectory:AppKey"
-use the following command:
-
-```shell
-dotnet user-secrets set "FulfillmentClient:AzureActiveDirectory:AppKey" "secret here"
-```
-
-Please see the user secrets
-[documentation](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows)
-for more details.
-
-Alternatively, if you are not going to publish your code, and will just keep the
-code on your computer, you can also modify the appsettings.json to add your
-secrets.
-
-#### An experimental API client, and webhook processor helper
-
-I have an experimental API client I posted on a different repo that implements
-the API interactions as well as encapsulates the webhook interaction. Please
-take a look at this
-[repo](https://github.com/Ercenk/AzureMarketplaceSaaSApiClient).
