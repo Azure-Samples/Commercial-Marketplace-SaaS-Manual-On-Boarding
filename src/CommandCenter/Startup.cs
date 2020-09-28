@@ -103,7 +103,7 @@ namespace CommandCenter
             services.AddSingleton<ContosoWebhookHandlerOptions>();
 
             services.TryAddScoped<IWebhookHandler, ContosoWebhookHandler>();
-            services.TryAddScoped<IWebhookProcessor, WebhookProcessor>();
+            services.TryAddScoped<IMarketplaceProcessor, MarketplaceProcessor>();
 
             // It is email in this sample, but you can plug in anything that implements the interface and communicate with an existing API.
             // In the email case, the existing API is the SendGrid API...
