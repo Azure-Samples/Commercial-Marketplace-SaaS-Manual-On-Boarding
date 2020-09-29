@@ -170,7 +170,7 @@
      ],
      "name": "AadIdentifier",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/AadIdentifier"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/AadIdentifier"
      ]
     }
    },
@@ -272,7 +272,7 @@
      ],
      "name": "Subscription-term",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-term"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-term"
      ]
     },
     "x-internal-autorest-anonymous-schema": {
@@ -457,7 +457,7 @@
        ],
        "name": "SubscriptionStatusEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-saasSubscriptionStatus"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-saasSubscriptionStatus"
        ]
       },
       "x-ms-enum": {
@@ -966,7 +966,7 @@
        ],
        "name": "SessionModeEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-sessionMode"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-sessionMode"
        ]
       },
       "x-ms-enum": {
@@ -1045,7 +1045,7 @@
        ],
        "name": "SandboxTypeEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-sandboxType"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Subscription-sandboxType"
        ]
       },
       "x-ms-enum": {
@@ -1115,7 +1115,7 @@
      ],
      "name": "Subscription",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Subscription"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Subscription"
      ]
     }
    },
@@ -1354,7 +1354,7 @@
      ],
      "name": "ResolvedSubscription",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/ResolvedSubscription"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/ResolvedSubscription"
      ]
     }
    },
@@ -1457,7 +1457,7 @@
      ],
      "name": "SubscriptionsResponse",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/SubscriptionsResponse"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/SubscriptionsResponse"
      ]
     }
    },
@@ -1593,7 +1593,7 @@
      ],
      "name": "Plan",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Plan"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Plan"
      ]
     }
    },
@@ -1658,7 +1658,7 @@
      ],
      "name": "SubscriptionPlans",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/SubscriptionPlans"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/SubscriptionPlans"
      ]
     }
    },
@@ -1759,7 +1759,7 @@
      ],
      "name": "SubscriberPlan",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/SubscriberPlan"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/SubscriberPlan"
      ]
     }
    },
@@ -1859,7 +1859,7 @@
      ],
      "name": "FulfillmentInternalServerErrorResponse-error",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/FulfillmentInternalServerErrorResponse-error"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/FulfillmentInternalServerErrorResponse-error"
      ]
     },
     "x-internal-autorest-anonymous-schema": {
@@ -1918,7 +1918,7 @@
      ],
      "name": "FulfillmentInternalServerErrorResponse",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/FulfillmentInternalServerErrorResponse"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/FulfillmentInternalServerErrorResponse"
      ]
     }
    },
@@ -2027,7 +2027,7 @@
        ],
        "name": "UpdateOperationStatusEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/UpdateOperation-status"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/UpdateOperation-status"
        ]
       },
       "x-ms-enum": {
@@ -2097,7 +2097,7 @@
      ],
      "name": "UpdateOperation",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/UpdateOperation"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/UpdateOperation"
      ]
     }
    },
@@ -2389,7 +2389,7 @@
        ],
        "name": "OperationActionEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Operation-action"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Operation-action"
        ]
       },
       "x-ms-enum": {
@@ -2519,7 +2519,7 @@
        ],
        "name": "OperationStatusEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Operation-status"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Operation-status"
        ]
       },
       "x-ms-enum": {
@@ -2604,7 +2604,7 @@
      ],
      "name": "Operation",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/Operation"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/Operation"
      ]
     }
    },
@@ -2669,7 +2669,7 @@
      ],
      "name": "OperationList",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/schemas/OperationList"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/schemas/OperationList"
      ]
     }
    },
@@ -2707,7 +2707,7 @@
        ],
        "name": "paths·1rqu8v1·saas-subscriptions-subscriptionid·patch·responses·202·headers·operation_location",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/headers/paths·1rqu8v1·saas-subscriptions-subscriptionid·patch·responses·202·headers·operation_location"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/headers/paths·1rqu8v1·saas-subscriptions-subscriptionid·patch·responses·202·headers·operation_location"
        ]
       },
       "x-ms-client-name": "OperationLocationUri"
@@ -2774,7 +2774,7 @@
        ],
        "name": "paths·c6todp·saas-subscriptions-subscriptionid·delete·responses·202·headers·operation_location",
        "originalLocations": [
-        "file:///input/2018-08-31/saasapi.v2.json#/components/headers/paths·c6todp·saas-subscriptions-subscriptionid·delete·responses·202·headers·operation_location"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/headers/paths·c6todp·saas-subscriptions-subscriptionid·delete·responses·202·headers·operation_location"
        ]
       },
       "x-ms-client-name": "OperationLocationUri"
@@ -2885,7 +2885,7 @@
      ],
      "name": "paths·kbv190·saas-subscriptions-resolve·post·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·kbv190·saas-subscriptions-resolve·post·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·kbv190·saas-subscriptions-resolve·post·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -2961,7 +2961,7 @@
      ],
      "name": "paths·1xc1tc0·saas-subscriptions-resolve·post·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xc1tc0·saas-subscriptions-resolve·post·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xc1tc0·saas-subscriptions-resolve·post·parameters·1"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -3015,7 +3015,7 @@
      ],
      "name": "paths·qzogu6·saas-subscriptions-resolve·post·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·qzogu6·saas-subscriptions-resolve·post·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·qzogu6·saas-subscriptions-resolve·post·parameters·2"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -3069,7 +3069,7 @@
      ],
      "name": "paths·13y0b97·saas-subscriptions-resolve·post·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·13y0b97·saas-subscriptions-resolve·post·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·13y0b97·saas-subscriptions-resolve·post·parameters·3"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3122,7 +3122,7 @@
      ],
      "name": "paths·1ew2lxr·saas-subscriptions·get·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1ew2lxr·saas-subscriptions·get·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1ew2lxr·saas-subscriptions·get·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3198,7 +3198,7 @@
      ],
      "name": "paths·ub89iv·saas-subscriptions·get·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·ub89iv·saas-subscriptions·get·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·ub89iv·saas-subscriptions·get·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3250,7 +3250,7 @@
      ],
      "name": "paths·1umf1w6·saas-subscriptions·get·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1umf1w6·saas-subscriptions·get·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1umf1w6·saas-subscriptions·get·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -3304,7 +3304,7 @@
      ],
      "name": "paths·12tonne·saas-subscriptions·get·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·12tonne·saas-subscriptions·get·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·12tonne·saas-subscriptions·get·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -3357,7 +3357,7 @@
      ],
      "name": "paths·174v99u·saas-subscriptions-subscriptionid·get·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·174v99u·saas-subscriptions-subscriptionid·get·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·174v99u·saas-subscriptions-subscriptionid·get·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3411,7 +3411,7 @@
      ],
      "name": "paths·15c1pa8·saas-subscriptions-subscriptionid·get·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·15c1pa8·saas-subscriptions-subscriptionid·get·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·15c1pa8·saas-subscriptions-subscriptionid·get·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3487,7 +3487,7 @@
      ],
      "name": "paths·102aua6·saas-subscriptions-subscriptionid·get·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·102aua6·saas-subscriptions-subscriptionid·get·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·102aua6·saas-subscriptions-subscriptionid·get·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -3541,7 +3541,7 @@
      ],
      "name": "paths·uvbjdp·saas-subscriptions-subscriptionid·get·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·uvbjdp·saas-subscriptions-subscriptionid·get·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·uvbjdp·saas-subscriptions-subscriptionid·get·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -3594,7 +3594,7 @@
      ],
      "name": "paths·13zp2dg·saas-subscriptions-subscriptionid·patch·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·13zp2dg·saas-subscriptions-subscriptionid·patch·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·13zp2dg·saas-subscriptions-subscriptionid·patch·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3648,7 +3648,7 @@
      ],
      "name": "paths·lxqods·saas-subscriptions-subscriptionid·patch·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·lxqods·saas-subscriptions-subscriptionid·patch·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·lxqods·saas-subscriptions-subscriptionid·patch·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3724,7 +3724,7 @@
      ],
      "name": "paths·hdpxal·saas-subscriptions-subscriptionid·patch·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·hdpxal·saas-subscriptions-subscriptionid·patch·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·hdpxal·saas-subscriptions-subscriptionid·patch·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -3778,7 +3778,7 @@
      ],
      "name": "paths·j7794q·saas-subscriptions-subscriptionid·patch·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·j7794q·saas-subscriptions-subscriptionid·patch·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·j7794q·saas-subscriptions-subscriptionid·patch·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -3831,7 +3831,7 @@
      ],
      "name": "paths·1yudhci·saas-subscriptions-subscriptionid·delete·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1yudhci·saas-subscriptions-subscriptionid·delete·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1yudhci·saas-subscriptions-subscriptionid·delete·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3885,7 +3885,7 @@
      ],
      "name": "paths·1170zd9·saas-subscriptions-subscriptionid·delete·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1170zd9·saas-subscriptions-subscriptionid·delete·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1170zd9·saas-subscriptions-subscriptionid·delete·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -3961,7 +3961,7 @@
      ],
      "name": "paths·1vnbmcx·saas-subscriptions-subscriptionid·delete·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vnbmcx·saas-subscriptions-subscriptionid·delete·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vnbmcx·saas-subscriptions-subscriptionid·delete·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -4015,7 +4015,7 @@
      ],
      "name": "paths·1wo6k1·saas-subscriptions-subscriptionid·delete·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1wo6k1·saas-subscriptions-subscriptionid·delete·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1wo6k1·saas-subscriptions-subscriptionid·delete·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -4068,7 +4068,7 @@
      ],
      "name": "paths·1jlm46q·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1jlm46q·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1jlm46q·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4122,7 +4122,7 @@
      ],
      "name": "paths·1nrg1n1·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1nrg1n1·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1nrg1n1·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4198,7 +4198,7 @@
      ],
      "name": "paths·c7abm3·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·c7abm3·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·c7abm3·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -4252,7 +4252,7 @@
      ],
      "name": "paths·1u226hs·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1u226hs·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1u226hs·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -4305,7 +4305,7 @@
      ],
      "name": "paths·1ppcnjs·saas-subscriptions-subscriptionid-activate·post·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1ppcnjs·saas-subscriptions-subscriptionid-activate·post·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1ppcnjs·saas-subscriptions-subscriptionid-activate·post·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4359,7 +4359,7 @@
      ],
      "name": "paths·z2b2ww·saas-subscriptions-subscriptionid-activate·post·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·z2b2ww·saas-subscriptions-subscriptionid-activate·post·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·z2b2ww·saas-subscriptions-subscriptionid-activate·post·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4435,7 +4435,7 @@
      ],
      "name": "paths·lnohnv·saas-subscriptions-subscriptionid-activate·post·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·lnohnv·saas-subscriptions-subscriptionid-activate·post·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·lnohnv·saas-subscriptions-subscriptionid-activate·post·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -4489,7 +4489,7 @@
      ],
      "name": "paths·d24lju·saas-subscriptions-subscriptionid-activate·post·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·d24lju·saas-subscriptions-subscriptionid-activate·post·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·d24lju·saas-subscriptions-subscriptionid-activate·post·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -4542,7 +4542,7 @@
      ],
      "name": "paths·1rx1qez·saas-subscriptions-subscriptionid-operations·get·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1rx1qez·saas-subscriptions-subscriptionid-operations·get·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1rx1qez·saas-subscriptions-subscriptionid-operations·get·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4596,7 +4596,7 @@
      ],
      "name": "paths·1a6wgar·saas-subscriptions-subscriptionid-operations·get·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1a6wgar·saas-subscriptions-subscriptionid-operations·get·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1a6wgar·saas-subscriptions-subscriptionid-operations·get·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4672,7 +4672,7 @@
      ],
      "name": "paths·gzwzv7·saas-subscriptions-subscriptionid-operations·get·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·gzwzv7·saas-subscriptions-subscriptionid-operations·get·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·gzwzv7·saas-subscriptions-subscriptionid-operations·get·parameters·2"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -4726,7 +4726,7 @@
      ],
      "name": "paths·hc1lvx·saas-subscriptions-subscriptionid-operations·get·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·hc1lvx·saas-subscriptions-subscriptionid-operations·get·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·hc1lvx·saas-subscriptions-subscriptionid-operations·get·parameters·3"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -4779,7 +4779,7 @@
      ],
      "name": "paths·5t4g4t·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·5t4g4t·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·5t4g4t·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4831,7 +4831,7 @@
      ],
      "name": "paths·iq0wej·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·iq0wej·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·iq0wej·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4885,7 +4885,7 @@
      ],
      "name": "paths·150pybj·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·150pybj·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·150pybj·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·2"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -4961,7 +4961,7 @@
      ],
      "name": "paths·itsw2n·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·itsw2n·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·itsw2n·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·3"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -5015,7 +5015,7 @@
      ],
      "name": "paths·jqbfm1·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·4",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·jqbfm1·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·4"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·jqbfm1·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·4"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -5068,7 +5068,7 @@
      ],
      "name": "paths·1kc0nx8·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1kc0nx8·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1kc0nx8·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -5120,7 +5120,7 @@
      ],
      "name": "paths·1vm6i35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vm6i35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vm6i35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·1"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -5174,7 +5174,7 @@
      ],
      "name": "paths·kawo35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·kawo35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·kawo35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·2"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -5250,7 +5250,7 @@
      ],
      "name": "paths·1xe7y7j·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·3",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xe7y7j·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·3"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xe7y7j·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·3"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -5304,7 +5304,7 @@
      ],
      "name": "paths·1nly23y·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·4",
      "originalLocations": [
-      "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1nly23y·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·4"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1nly23y·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·4"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -5401,7 +5401,7 @@
          ],
          "name": "paths·1xc1tc0·saas-subscriptions-resolve·post·parameters·1",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xc1tc0·saas-subscriptions-resolve·post·parameters·1"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xc1tc0·saas-subscriptions-resolve·post·parameters·1"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -5455,7 +5455,7 @@
          ],
          "name": "paths·qzogu6·saas-subscriptions-resolve·post·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·qzogu6·saas-subscriptions-resolve·post·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·qzogu6·saas-subscriptions-resolve·post·parameters·2"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -5509,7 +5509,7 @@
          ],
          "name": "paths·13y0b97·saas-subscriptions-resolve·post·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·13y0b97·saas-subscriptions-resolve·post·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·13y0b97·saas-subscriptions-resolve·post·parameters·3"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -5566,7 +5566,7 @@
          ],
          "name": "paths·1n3ohlw·saas-subscriptions-resolve·post·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1n3ohlw·saas-subscriptions-resolve·post·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1n3ohlw·saas-subscriptions-resolve·post·responses·200"
          ]
         }
        },
@@ -5585,7 +5585,7 @@
          ],
          "name": "paths·z67y0·saas-subscriptions-resolve·post·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·z67y0·saas-subscriptions-resolve·post·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·z67y0·saas-subscriptions-resolve·post·responses·400"
          ]
         }
        },
@@ -5604,7 +5604,7 @@
          ],
          "name": "paths·2r8w8l·saas-subscriptions-resolve·post·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·2r8w8l·saas-subscriptions-resolve·post·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·2r8w8l·saas-subscriptions-resolve·post·responses·403"
          ]
         }
        },
@@ -5623,7 +5623,7 @@
          ],
          "name": "paths·4vot22·saas-subscriptions-resolve·post·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·4vot22·saas-subscriptions-resolve·post·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·4vot22·saas-subscriptions-resolve·post·responses·404"
          ]
         }
        },
@@ -5642,7 +5642,7 @@
          ],
          "name": "paths·1b1jvsx·saas-subscriptions-resolve·post·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1b1jvsx·saas-subscriptions-resolve·post·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1b1jvsx·saas-subscriptions-resolve·post·responses·500"
          ]
         }
        },
@@ -5742,7 +5742,7 @@
          ],
          "name": "paths·ub89iv·saas-subscriptions·get·parameters·1",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·ub89iv·saas-subscriptions·get·parameters·1"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·ub89iv·saas-subscriptions·get·parameters·1"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -5794,7 +5794,7 @@
          ],
          "name": "paths·1umf1w6·saas-subscriptions·get·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1umf1w6·saas-subscriptions·get·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1umf1w6·saas-subscriptions·get·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -5848,7 +5848,7 @@
          ],
          "name": "paths·12tonne·saas-subscriptions·get·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·12tonne·saas-subscriptions·get·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·12tonne·saas-subscriptions·get·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -5907,7 +5907,7 @@
          ],
          "name": "paths·1t8od1o·saas-subscriptions·get·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1t8od1o·saas-subscriptions·get·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1t8od1o·saas-subscriptions·get·responses·200"
          ]
         }
        },
@@ -5926,7 +5926,7 @@
          ],
          "name": "paths·1fygs3d·saas-subscriptions·get·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1fygs3d·saas-subscriptions·get·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1fygs3d·saas-subscriptions·get·responses·403"
          ]
         }
        },
@@ -5945,7 +5945,7 @@
          ],
          "name": "paths·1w6o72n·saas-subscriptions·get·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1w6o72n·saas-subscriptions·get·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1w6o72n·saas-subscriptions·get·responses·500"
          ]
         }
        },
@@ -6013,7 +6013,7 @@
          ],
          "name": "paths·174v99u·saas-subscriptions-subscriptionid·get·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·174v99u·saas-subscriptions-subscriptionid·get·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·174v99u·saas-subscriptions-subscriptionid·get·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -6101,7 +6101,7 @@
          ],
          "name": "paths·102aua6·saas-subscriptions-subscriptionid·get·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·102aua6·saas-subscriptions-subscriptionid·get·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·102aua6·saas-subscriptions-subscriptionid·get·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -6155,7 +6155,7 @@
          ],
          "name": "paths·uvbjdp·saas-subscriptions-subscriptionid·get·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·uvbjdp·saas-subscriptions-subscriptionid·get·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·uvbjdp·saas-subscriptions-subscriptionid·get·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -6214,7 +6214,7 @@
          ],
          "name": "paths·12c07h8·saas-subscriptions-subscriptionid·get·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·12c07h8·saas-subscriptions-subscriptionid·get·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·12c07h8·saas-subscriptions-subscriptionid·get·responses·200"
          ]
         }
        },
@@ -6233,7 +6233,7 @@
          ],
          "name": "paths·1v5grlg·saas-subscriptions-subscriptionid·get·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1v5grlg·saas-subscriptions-subscriptionid·get·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1v5grlg·saas-subscriptions-subscriptionid·get·responses·403"
          ]
         }
        },
@@ -6252,7 +6252,7 @@
          ],
          "name": "paths·18debi6·saas-subscriptions-subscriptionid·get·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·18debi6·saas-subscriptions-subscriptionid·get·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·18debi6·saas-subscriptions-subscriptionid·get·responses·404"
          ]
         }
        },
@@ -6271,7 +6271,7 @@
          ],
          "name": "paths·48ze7v·saas-subscriptions-subscriptionid·get·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·48ze7v·saas-subscriptions-subscriptionid·get·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·48ze7v·saas-subscriptions-subscriptionid·get·responses·500"
          ]
         }
        },
@@ -6332,7 +6332,7 @@
          ],
          "name": "paths·1hn78i8·saas-subscriptions-subscriptionid·patch·requestbody",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/requestBodies/paths·1hn78i8·saas-subscriptions-subscriptionid·patch·requestbody"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/requestBodies/paths·1hn78i8·saas-subscriptions-subscriptionid·patch·requestbody"
          ]
         }
        },
@@ -6374,7 +6374,7 @@
          ],
          "name": "paths·13zp2dg·saas-subscriptions-subscriptionid·patch·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·13zp2dg·saas-subscriptions-subscriptionid·patch·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·13zp2dg·saas-subscriptions-subscriptionid·patch·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -6462,7 +6462,7 @@
          ],
          "name": "paths·hdpxal·saas-subscriptions-subscriptionid·patch·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·hdpxal·saas-subscriptions-subscriptionid·patch·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·hdpxal·saas-subscriptions-subscriptionid·patch·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -6516,7 +6516,7 @@
          ],
          "name": "paths·j7794q·saas-subscriptions-subscriptionid·patch·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·j7794q·saas-subscriptions-subscriptionid·patch·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·j7794q·saas-subscriptions-subscriptionid·patch·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -6575,7 +6575,7 @@
          ],
          "name": "paths·13realj·saas-subscriptions-subscriptionid·patch·responses·202",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·13realj·saas-subscriptions-subscriptionid·patch·responses·202"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·13realj·saas-subscriptions-subscriptionid·patch·responses·202"
          ]
         }
        },
@@ -6597,7 +6597,7 @@
          ],
          "name": "paths·ft9jij·saas-subscriptions-subscriptionid·patch·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·ft9jij·saas-subscriptions-subscriptionid·patch·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·ft9jij·saas-subscriptions-subscriptionid·patch·responses·400"
          ]
         }
        },
@@ -6619,7 +6619,7 @@
          ],
          "name": "paths·24409·saas-subscriptions-subscriptionid·patch·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·24409·saas-subscriptions-subscriptionid·patch·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·24409·saas-subscriptions-subscriptionid·patch·responses·403"
          ]
         }
        },
@@ -6641,7 +6641,7 @@
          ],
          "name": "paths·cs6scb·saas-subscriptions-subscriptionid·patch·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·cs6scb·saas-subscriptions-subscriptionid·patch·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·cs6scb·saas-subscriptions-subscriptionid·patch·responses·404"
          ]
         }
        },
@@ -6663,7 +6663,7 @@
          ],
          "name": "paths·iebcnj·saas-subscriptions-subscriptionid·patch·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·iebcnj·saas-subscriptions-subscriptionid·patch·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·iebcnj·saas-subscriptions-subscriptionid·patch·responses·500"
          ]
         }
        },
@@ -6727,7 +6727,7 @@
          ],
          "name": "paths·1yudhci·saas-subscriptions-subscriptionid·delete·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1yudhci·saas-subscriptions-subscriptionid·delete·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1yudhci·saas-subscriptions-subscriptionid·delete·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -6815,7 +6815,7 @@
          ],
          "name": "paths·1vnbmcx·saas-subscriptions-subscriptionid·delete·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vnbmcx·saas-subscriptions-subscriptionid·delete·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vnbmcx·saas-subscriptions-subscriptionid·delete·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -6869,7 +6869,7 @@
          ],
          "name": "paths·1wo6k1·saas-subscriptions-subscriptionid·delete·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1wo6k1·saas-subscriptions-subscriptionid·delete·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1wo6k1·saas-subscriptions-subscriptionid·delete·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -6928,7 +6928,7 @@
          ],
          "name": "paths·1tq9ds3·saas-subscriptions-subscriptionid·delete·responses·202",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1tq9ds3·saas-subscriptions-subscriptionid·delete·responses·202"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1tq9ds3·saas-subscriptions-subscriptionid·delete·responses·202"
          ]
         }
        },
@@ -6950,7 +6950,7 @@
          ],
          "name": "paths·1y83up1·saas-subscriptions-subscriptionid·delete·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1y83up1·saas-subscriptions-subscriptionid·delete·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1y83up1·saas-subscriptions-subscriptionid·delete·responses·400"
          ]
         }
        },
@@ -6972,7 +6972,7 @@
          ],
          "name": "paths·13nvh5v·saas-subscriptions-subscriptionid·delete·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·13nvh5v·saas-subscriptions-subscriptionid·delete·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·13nvh5v·saas-subscriptions-subscriptionid·delete·responses·403"
          ]
         }
        },
@@ -6994,7 +6994,7 @@
          ],
          "name": "paths·x09k0n·saas-subscriptions-subscriptionid·delete·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·x09k0n·saas-subscriptions-subscriptionid·delete·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·x09k0n·saas-subscriptions-subscriptionid·delete·responses·404"
          ]
         }
        },
@@ -7016,7 +7016,7 @@
          ],
          "name": "paths·ugbo1·saas-subscriptions-subscriptionid·delete·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·ugbo1·saas-subscriptions-subscriptionid·delete·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·ugbo1·saas-subscriptions-subscriptionid·delete·responses·500"
          ]
         }
        },
@@ -7080,7 +7080,7 @@
          ],
          "name": "paths·1jlm46q·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1jlm46q·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1jlm46q·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -7168,7 +7168,7 @@
          ],
          "name": "paths·c7abm3·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·c7abm3·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·c7abm3·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -7222,7 +7222,7 @@
          ],
          "name": "paths·1u226hs·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1u226hs·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1u226hs·saas-subscriptions-subscriptionid-listavailableplans·get·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -7281,7 +7281,7 @@
          ],
          "name": "paths·fajld1·saas-subscriptions-subscriptionid-listavailableplans·get·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·fajld1·saas-subscriptions-subscriptionid-listavailableplans·get·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·fajld1·saas-subscriptions-subscriptionid-listavailableplans·get·responses·200"
          ]
         }
        },
@@ -7300,7 +7300,7 @@
          ],
          "name": "paths·ldh6l6·saas-subscriptions-subscriptionid-listavailableplans·get·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·ldh6l6·saas-subscriptions-subscriptionid-listavailableplans·get·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·ldh6l6·saas-subscriptions-subscriptionid-listavailableplans·get·responses·403"
          ]
         }
        },
@@ -7319,7 +7319,7 @@
          ],
          "name": "paths·1m899zp·saas-subscriptions-subscriptionid-listavailableplans·get·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1m899zp·saas-subscriptions-subscriptionid-listavailableplans·get·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1m899zp·saas-subscriptions-subscriptionid-listavailableplans·get·responses·404"
          ]
         }
        },
@@ -7338,7 +7338,7 @@
          ],
          "name": "paths·1ufebe0·saas-subscriptions-subscriptionid-listavailableplans·get·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1ufebe0·saas-subscriptions-subscriptionid-listavailableplans·get·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1ufebe0·saas-subscriptions-subscriptionid-listavailableplans·get·responses·500"
          ]
         }
        },
@@ -7399,7 +7399,7 @@
          ],
          "name": "paths·1dadhy6·saas-subscriptions-subscriptionid-activate·post·requestbody",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/requestBodies/paths·1dadhy6·saas-subscriptions-subscriptionid-activate·post·requestbody"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/requestBodies/paths·1dadhy6·saas-subscriptions-subscriptionid-activate·post·requestbody"
          ]
         }
        },
@@ -7441,7 +7441,7 @@
          ],
          "name": "paths·1ppcnjs·saas-subscriptions-subscriptionid-activate·post·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1ppcnjs·saas-subscriptions-subscriptionid-activate·post·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1ppcnjs·saas-subscriptions-subscriptionid-activate·post·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -7529,7 +7529,7 @@
          ],
          "name": "paths·lnohnv·saas-subscriptions-subscriptionid-activate·post·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·lnohnv·saas-subscriptions-subscriptionid-activate·post·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·lnohnv·saas-subscriptions-subscriptionid-activate·post·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -7583,7 +7583,7 @@
          ],
          "name": "paths·d24lju·saas-subscriptions-subscriptionid-activate·post·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·d24lju·saas-subscriptions-subscriptionid-activate·post·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·d24lju·saas-subscriptions-subscriptionid-activate·post·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -7639,7 +7639,7 @@
          ],
          "name": "paths·z1mxas·saas-subscriptions-subscriptionid-activate·post·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·z1mxas·saas-subscriptions-subscriptionid-activate·post·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·z1mxas·saas-subscriptions-subscriptionid-activate·post·responses·200"
          ]
         }
        },
@@ -7658,7 +7658,7 @@
          ],
          "name": "paths·oz24u8·saas-subscriptions-subscriptionid-activate·post·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·oz24u8·saas-subscriptions-subscriptionid-activate·post·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·oz24u8·saas-subscriptions-subscriptionid-activate·post·responses·400"
          ]
         }
        },
@@ -7677,7 +7677,7 @@
          ],
          "name": "paths·t5u321·saas-subscriptions-subscriptionid-activate·post·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·t5u321·saas-subscriptions-subscriptionid-activate·post·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·t5u321·saas-subscriptions-subscriptionid-activate·post·responses·403"
          ]
         }
        },
@@ -7696,7 +7696,7 @@
          ],
          "name": "paths·7d9hhc·saas-subscriptions-subscriptionid-activate·post·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·7d9hhc·saas-subscriptions-subscriptionid-activate·post·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·7d9hhc·saas-subscriptions-subscriptionid-activate·post·responses·404"
          ]
         }
        },
@@ -7715,7 +7715,7 @@
          ],
          "name": "paths·1aajotk·saas-subscriptions-subscriptionid-activate·post·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1aajotk·saas-subscriptions-subscriptionid-activate·post·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1aajotk·saas-subscriptions-subscriptionid-activate·post·responses·500"
          ]
         }
        },
@@ -7791,7 +7791,7 @@
          ],
          "name": "paths·1rx1qez·saas-subscriptions-subscriptionid-operations·get·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1rx1qez·saas-subscriptions-subscriptionid-operations·get·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1rx1qez·saas-subscriptions-subscriptionid-operations·get·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -7879,7 +7879,7 @@
          ],
          "name": "paths·gzwzv7·saas-subscriptions-subscriptionid-operations·get·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·gzwzv7·saas-subscriptions-subscriptionid-operations·get·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·gzwzv7·saas-subscriptions-subscriptionid-operations·get·parameters·2"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -7933,7 +7933,7 @@
          ],
          "name": "paths·hc1lvx·saas-subscriptions-subscriptionid-operations·get·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·hc1lvx·saas-subscriptions-subscriptionid-operations·get·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·hc1lvx·saas-subscriptions-subscriptionid-operations·get·parameters·3"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -7992,7 +7992,7 @@
          ],
          "name": "paths·91j44d·saas-subscriptions-subscriptionid-operations·get·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·91j44d·saas-subscriptions-subscriptionid-operations·get·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·91j44d·saas-subscriptions-subscriptionid-operations·get·responses·200"
          ]
         }
        },
@@ -8011,7 +8011,7 @@
          ],
          "name": "paths·1rmvt5s·saas-subscriptions-subscriptionid-operations·get·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1rmvt5s·saas-subscriptions-subscriptionid-operations·get·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1rmvt5s·saas-subscriptions-subscriptionid-operations·get·responses·400"
          ]
         }
        },
@@ -8030,7 +8030,7 @@
          ],
          "name": "paths·18xw1gc·saas-subscriptions-subscriptionid-operations·get·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·18xw1gc·saas-subscriptions-subscriptionid-operations·get·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·18xw1gc·saas-subscriptions-subscriptionid-operations·get·responses·403"
          ]
         }
        },
@@ -8049,7 +8049,7 @@
          ],
          "name": "paths·1mpk5kz·saas-subscriptions-subscriptionid-operations·get·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1mpk5kz·saas-subscriptions-subscriptionid-operations·get·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1mpk5kz·saas-subscriptions-subscriptionid-operations·get·responses·404"
          ]
         }
        },
@@ -8068,7 +8068,7 @@
          ],
          "name": "paths·55ant1·saas-subscriptions-subscriptionid-operations·get·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·55ant1·saas-subscriptions-subscriptionid-operations·get·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·55ant1·saas-subscriptions-subscriptionid-operations·get·responses·500"
          ]
         }
        },
@@ -8132,7 +8132,7 @@
          ],
          "name": "paths·5t4g4t·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·5t4g4t·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·5t4g4t·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -8184,7 +8184,7 @@
          ],
          "name": "paths·iq0wej·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·1",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·iq0wej·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·1"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·iq0wej·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·1"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -8272,7 +8272,7 @@
          ],
          "name": "paths·itsw2n·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·itsw2n·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·itsw2n·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·3"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -8326,7 +8326,7 @@
          ],
          "name": "paths·jqbfm1·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·4",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·jqbfm1·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·4"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·jqbfm1·saas-subscriptions-subscriptionid-operations-operationid·get·parameters·4"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -8385,7 +8385,7 @@
          ],
          "name": "paths·trh6fg·saas-subscriptions-subscriptionid-operations-operationid·get·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·trh6fg·saas-subscriptions-subscriptionid-operations-operationid·get·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·trh6fg·saas-subscriptions-subscriptionid-operations-operationid·get·responses·200"
          ]
         }
        },
@@ -8404,7 +8404,7 @@
          ],
          "name": "paths·1ojt0yw·saas-subscriptions-subscriptionid-operations-operationid·get·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1ojt0yw·saas-subscriptions-subscriptionid-operations-operationid·get·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1ojt0yw·saas-subscriptions-subscriptionid-operations-operationid·get·responses·400"
          ]
         }
        },
@@ -8423,7 +8423,7 @@
          ],
          "name": "paths·1l54ujd·saas-subscriptions-subscriptionid-operations-operationid·get·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1l54ujd·saas-subscriptions-subscriptionid-operations-operationid·get·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1l54ujd·saas-subscriptions-subscriptionid-operations-operationid·get·responses·403"
          ]
         }
        },
@@ -8442,7 +8442,7 @@
          ],
          "name": "paths·1om4i7g·saas-subscriptions-subscriptionid-operations-operationid·get·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1om4i7g·saas-subscriptions-subscriptionid-operations-operationid·get·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1om4i7g·saas-subscriptions-subscriptionid-operations-operationid·get·responses·404"
          ]
         }
        },
@@ -8461,7 +8461,7 @@
          ],
          "name": "paths·b4y61n·saas-subscriptions-subscriptionid-operations-operationid·get·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·b4y61n·saas-subscriptions-subscriptionid-operations-operationid·get·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·b4y61n·saas-subscriptions-subscriptionid-operations-operationid·get·responses·500"
          ]
         }
        },
@@ -8522,7 +8522,7 @@
          ],
          "name": "paths·frksg4·saas-subscriptions-subscriptionid-operations-operationid·patch·requestbody",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/requestBodies/paths·frksg4·saas-subscriptions-subscriptionid-operations-operationid·patch·requestbody"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/requestBodies/paths·frksg4·saas-subscriptions-subscriptionid-operations-operationid·patch·requestbody"
          ]
         }
        },
@@ -8564,7 +8564,7 @@
          ],
          "name": "paths·1kc0nx8·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·0",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1kc0nx8·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·0"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1kc0nx8·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·0"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -8616,7 +8616,7 @@
          ],
          "name": "paths·1vm6i35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·1",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vm6i35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·1"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1vm6i35·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·1"
          ]
         },
         "x-ms-parameter-location": "method"
@@ -8704,7 +8704,7 @@
          ],
          "name": "paths·1xe7y7j·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·3",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xe7y7j·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·3"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1xe7y7j·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·3"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -8758,7 +8758,7 @@
          ],
          "name": "paths·1nly23y·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·4",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/parameters/paths·1nly23y·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·4"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/parameters/paths·1nly23y·saas-subscriptions-subscriptionid-operations-operationid·patch·parameters·4"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -8814,7 +8814,7 @@
          ],
          "name": "paths·godzc4·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·godzc4·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·godzc4·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·200"
          ]
         }
        },
@@ -8833,7 +8833,7 @@
          ],
          "name": "paths·1fu8lcb·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1fu8lcb·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1fu8lcb·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·400"
          ]
         }
        },
@@ -8852,7 +8852,7 @@
          ],
          "name": "paths·198moju·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·198moju·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·198moju·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·403"
          ]
         }
        },
@@ -8871,7 +8871,7 @@
          ],
          "name": "paths·ffzrzh·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·404",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·ffzrzh·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·404"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·ffzrzh·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·404"
          ]
         }
        },
@@ -8890,7 +8890,7 @@
          ],
          "name": "paths·1ceqtou·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·409",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·1ceqtou·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·409"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·1ceqtou·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·409"
          ]
         }
        },
@@ -8909,7 +8909,7 @@
          ],
          "name": "paths·ei2wk2·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·500",
          "originalLocations": [
-          "file:///input/2018-08-31/saasapi.v2.json#/components/responses/paths·ei2wk2·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·500"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.SaaS/2018-08-31/saasapi.v2.json#/components/responses/paths·ei2wk2·saas-subscriptions-subscriptionid-operations-operationid·patch·responses·500"
          ]
         }
        },

@@ -1,27 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30104.148
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9F7567AD-6861-47C7-AEB8-57658C402B65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{99CA6AAF-0F44-43CA-AD94-E02AAA6BBCF4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C2458182-C947-42F2-81DC-31046435AF6A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{481A46CA-F6C0-4580-9DDA-684C421D465E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{26D0B282-1BC3-4D72-A583-6EEDA9043E2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Marketplace", "src\Microsoft.Marketplace.csproj", "{1F2FCF1F-04CC-496A-B400-7CF10382EB74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDK.Tests", "tests\SDK.Tests\SDK.Tests.csproj", "{3EA97B64-014C-4CEB-9748-FAF3BA337004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Marketplace.Tests", "tests\Microsoft.Marketplace.Tests.csproj", "{EABC6306-053C-4B32-B90F-6F8B77ED5F8D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B32DA984-0BD1-49A3-8A98-C257FC8EAD93}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9F7429D-47B3-4CFF-A14F-D6272F08E7AA}"
 	ProjectSection(SolutionItems) = preProject
-		Directory.Build.props = Directory.Build.props
 		global.json = global.json
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Marketplace.Metering", "src\Microsoft.Marketplace.Metering\Microsoft.Marketplace.Metering.csproj", "{385C2B9A-CF07-462A-959D-D65AE9C5FE6E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Marketplace.SaaS", "src\Microsoft.Marketplace.SaaS\Microsoft.Marketplace.SaaS.csproj", "{6422F74F-F5F0-40C3-A140-34F58EC8733C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Marketplace.Core", "src\Microsoft.Marketplace.Core\Microsoft.Marketplace.Core.csproj", "{7864EAF4-094E-4B60-BAE8-BF22BDFEE237}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,33 +22,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3EA97B64-014C-4CEB-9748-FAF3BA337004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EA97B64-014C-4CEB-9748-FAF3BA337004}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EA97B64-014C-4CEB-9748-FAF3BA337004}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EA97B64-014C-4CEB-9748-FAF3BA337004}.Release|Any CPU.Build.0 = Release|Any CPU
-		{385C2B9A-CF07-462A-959D-D65AE9C5FE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{385C2B9A-CF07-462A-959D-D65AE9C5FE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{385C2B9A-CF07-462A-959D-D65AE9C5FE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{385C2B9A-CF07-462A-959D-D65AE9C5FE6E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6422F74F-F5F0-40C3-A140-34F58EC8733C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6422F74F-F5F0-40C3-A140-34F58EC8733C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6422F74F-F5F0-40C3-A140-34F58EC8733C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6422F74F-F5F0-40C3-A140-34F58EC8733C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7864EAF4-094E-4B60-BAE8-BF22BDFEE237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7864EAF4-094E-4B60-BAE8-BF22BDFEE237}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7864EAF4-094E-4B60-BAE8-BF22BDFEE237}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7864EAF4-094E-4B60-BAE8-BF22BDFEE237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2FCF1F-04CC-496A-B400-7CF10382EB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2FCF1F-04CC-496A-B400-7CF10382EB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2FCF1F-04CC-496A-B400-7CF10382EB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2FCF1F-04CC-496A-B400-7CF10382EB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABC6306-053C-4B32-B90F-6F8B77ED5F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABC6306-053C-4B32-B90F-6F8B77ED5F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABC6306-053C-4B32-B90F-6F8B77ED5F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABC6306-053C-4B32-B90F-6F8B77ED5F8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3EA97B64-014C-4CEB-9748-FAF3BA337004} = {9F7567AD-6861-47C7-AEB8-57658C402B65}
-		{385C2B9A-CF07-462A-959D-D65AE9C5FE6E} = {26D0B282-1BC3-4D72-A583-6EEDA9043E2D}
-		{6422F74F-F5F0-40C3-A140-34F58EC8733C} = {26D0B282-1BC3-4D72-A583-6EEDA9043E2D}
-		{7864EAF4-094E-4B60-BAE8-BF22BDFEE237} = {26D0B282-1BC3-4D72-A583-6EEDA9043E2D}
+		{1F2FCF1F-04CC-496A-B400-7CF10382EB74} = {481A46CA-F6C0-4580-9DDA-684C421D465E}
+		{EABC6306-053C-4B32-B90F-6F8B77ED5F8D} = {99CA6AAF-0F44-43CA-AD94-E02AAA6BBCF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AF8A9420-8B50-4808-816E-D96141BC1C49}
+		SolutionGuid = {A40602C4-D62A-4759-AB32-1DD847B6A35B}
 	EndGlobalSection
 EndGlobal

@@ -211,7 +211,7 @@
      ],
      "name": "UsageEvent",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEvent"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEvent"
      ]
     }
    },
@@ -286,7 +286,7 @@
        ],
        "name": "UsageEventStatusEnum",
        "originalLocations": [
-        "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventOkResponse-status"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventOkResponse-status"
        ]
       },
       "x-ms-enum": {
@@ -607,7 +607,7 @@
      ],
      "name": "UsageEventOkResponse",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventOkResponse"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventOkResponse"
      ]
     }
    },
@@ -682,7 +682,7 @@
        ],
        "name": "UsageEventConflictResponse-additionalInfo-status",
        "originalLocations": [
-        "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventConflictResponse-additionalInfo-status"
+        "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventConflictResponse-additionalInfo-status"
        ]
       }
      },
@@ -979,7 +979,7 @@
      ],
      "name": "UsageEventConflictResponse-additionalInfo",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventConflictResponse-additionalInfo"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventConflictResponse-additionalInfo"
      ]
     },
     "x-internal-autorest-anonymous-schema": {
@@ -1074,7 +1074,7 @@
      ],
      "name": "UsageEventConflictResponse",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventConflictResponse"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventConflictResponse"
      ]
     }
    },
@@ -1210,7 +1210,7 @@
      ],
      "name": "UsageEventBadRequestResponseDetail",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventBadRequestResponseDetail"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventBadRequestResponseDetail"
      ]
     }
    },
@@ -1383,7 +1383,7 @@
      ],
      "name": "UsageEventBadRequestResponse",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventBadRequestResponse"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/schemas/UsageEventBadRequestResponse"
      ]
     }
    },
@@ -1445,7 +1445,7 @@
      ],
      "name": "paths·7ywah2·usageevent·post·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·7ywah2·usageevent·post·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·7ywah2·usageevent·post·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -1521,7 +1521,7 @@
      ],
      "name": "paths·x3lg62·usageevent·post·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·x3lg62·usageevent·post·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·x3lg62·usageevent·post·parameters·1"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -1575,7 +1575,7 @@
      ],
      "name": "paths·rxyxm6·usageevent·post·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·rxyxm6·usageevent·post·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·rxyxm6·usageevent·post·parameters·2"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -1630,7 +1630,7 @@
      ],
      "name": "paths·1yqdafe·batchusageevent·post·parameters·0",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·1yqdafe·batchusageevent·post·parameters·0"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·1yqdafe·batchusageevent·post·parameters·0"
      ]
     },
     "x-ms-parameter-location": "method"
@@ -1706,7 +1706,7 @@
      ],
      "name": "paths·17zt9co·batchusageevent·post·parameters·1",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·17zt9co·batchusageevent·post·parameters·1"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·17zt9co·batchusageevent·post·parameters·1"
      ]
     },
     "x-ms-client-name": "requestId",
@@ -1760,7 +1760,7 @@
      ],
      "name": "paths·bimwtw·batchusageevent·post·parameters·2",
      "originalLocations": [
-      "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·bimwtw·batchusageevent·post·parameters·2"
+      "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·bimwtw·batchusageevent·post·parameters·2"
      ]
     },
     "x-ms-client-name": "correlationId",
@@ -1798,12 +1798,12 @@
       {
        "$id": "252",
        "location": "body",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "253",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "254",
         "fixed": false
@@ -1818,7 +1818,7 @@
          ],
          "name": "paths·1lh2ilf·usageevent·post·requestbody",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/requestBodies/paths·1lh2ilf·usageevent·post·requestbody"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/requestBodies/paths·1lh2ilf·usageevent·post·requestbody"
          ]
         }
        },
@@ -1837,13 +1837,13 @@
       {
        "$id": "256",
        "location": "query",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "257",
         "fixed": false,
         "raw": "2018-08-31"
        },
-       "deprecated": false,
        "documentation": {
         "$id": "258",
         "fixed": false,
@@ -1875,12 +1875,12 @@
         "$ref": "216"
        },
        "location": "header",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "263",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "264",
         "fixed": false,
@@ -1896,7 +1896,7 @@
          ],
          "name": "paths·x3lg62·usageevent·post·parameters·1",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·x3lg62·usageevent·post·parameters·1"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·x3lg62·usageevent·post·parameters·1"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -1929,12 +1929,12 @@
         "$ref": "222"
        },
        "location": "header",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "269",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "270",
         "fixed": false,
@@ -1950,7 +1950,7 @@
          ],
          "name": "paths·rxyxm6·usageevent·post·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·rxyxm6·usageevent·post·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·rxyxm6·usageevent·post·parameters·2"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -2009,7 +2009,7 @@
          ],
          "name": "paths·1sgyirc·usageevent·post·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·1sgyirc·usageevent·post·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·1sgyirc·usageevent·post·responses·200"
          ]
         }
        },
@@ -2028,7 +2028,7 @@
          ],
          "name": "paths·1e1ibcf·usageevent·post·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·1e1ibcf·usageevent·post·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·1e1ibcf·usageevent·post·responses·400"
          ]
         }
        },
@@ -2047,7 +2047,7 @@
          ],
          "name": "paths·1qxge6g·usageevent·post·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·1qxge6g·usageevent·post·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·1qxge6g·usageevent·post·responses·403"
          ]
         }
        },
@@ -2066,7 +2066,7 @@
          ],
          "name": "paths·1u4m1wm·usageevent·post·responses·409",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·1u4m1wm·usageevent·post·responses·409"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·1u4m1wm·usageevent·post·responses·409"
          ]
         }
        },
@@ -2107,6 +2107,7 @@
       {
        "$id": "287",
        "location": "body",
+       "deprecated": false,
        "collectionFormat": "none",
        "constraints": {
         "MaxItems": "25",
@@ -2116,7 +2117,6 @@
         "$id": "288",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "289",
         "fixed": false
@@ -2131,7 +2131,7 @@
          ],
          "name": "paths·sj46qt·batchusageevent·post·requestbody",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/requestBodies/paths·sj46qt·batchusageevent·post·requestbody"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/requestBodies/paths·sj46qt·batchusageevent·post·requestbody"
          ]
         }
        },
@@ -2159,13 +2159,13 @@
       {
        "$id": "293",
        "location": "query",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "294",
         "fixed": false,
         "raw": "2018-08-31"
        },
-       "deprecated": false,
        "documentation": {
         "$id": "295",
         "fixed": false,
@@ -2197,12 +2197,12 @@
         "$ref": "216"
        },
        "location": "header",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "300",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "301",
         "fixed": false,
@@ -2218,7 +2218,7 @@
          ],
          "name": "paths·17zt9co·batchusageevent·post·parameters·1",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·17zt9co·batchusageevent·post·parameters·1"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·17zt9co·batchusageevent·post·parameters·1"
          ]
         },
         "x-ms-client-name": "requestId",
@@ -2251,12 +2251,12 @@
         "$ref": "222"
        },
        "location": "header",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "306",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "307",
         "fixed": false,
@@ -2272,7 +2272,7 @@
          ],
          "name": "paths·bimwtw·batchusageevent·post·parameters·2",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/parameters/paths·bimwtw·batchusageevent·post·parameters·2"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/parameters/paths·bimwtw·batchusageevent·post·parameters·2"
          ]
         },
         "x-ms-client-name": "correlationId",
@@ -2340,7 +2340,7 @@
          ],
          "name": "paths·4h6mrn·batchusageevent·post·responses·200",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·4h6mrn·batchusageevent·post·responses·200"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·4h6mrn·batchusageevent·post·responses·200"
          ]
         }
        },
@@ -2359,7 +2359,7 @@
          ],
          "name": "paths·1rtjht9·batchusageevent·post·responses·400",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·1rtjht9·batchusageevent·post·responses·400"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·1rtjht9·batchusageevent·post·responses·400"
          ]
         }
        },
@@ -2378,7 +2378,7 @@
          ],
          "name": "paths·oi4n6g·batchusageevent·post·responses·403",
          "originalLocations": [
-          "file:///input/2018-08-31/meteringapi.v1.json#/components/responses/paths·oi4n6g·batchusageevent·post·responses·403"
+          "file:///azure-marketplace-openapi/Microsoft.Marketplace.Metering/2018-08-31/meteringapi.v1.json#/components/responses/paths·oi4n6g·batchusageevent·post·responses·403"
          ]
         }
        },

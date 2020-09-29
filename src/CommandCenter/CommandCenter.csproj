@@ -55,7 +55,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\commercial-marketplace-sdk-dotnet\sdk\src\Microsoft.Marketplace.Core\Microsoft.Marketplace.Core.csproj" />
-    <ProjectReference Include="..\commercial-marketplace-sdk-dotnet\sdk\src\Microsoft.Marketplace.SaaS\Microsoft.Marketplace.SaaS.csproj" />
+    <ProjectReference Include="..\commercial-marketplace-sdk-dotnet\sdk\src\Microsoft.Marketplace.csproj" />
   </ItemGroup>
 </Project>
