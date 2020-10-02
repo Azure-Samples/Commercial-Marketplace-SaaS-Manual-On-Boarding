@@ -22,22 +22,11 @@ Taxonomies for products and languages: https://review.docs.microsoft.com/new-hop
 
 Some solutions require out-of-band or manual on-boarding steps, such as validating a customer, running scripts manually for deploying resources needed for a new customer etc. This sample uses email notifications for a new customer, or any changes on the subscription status made outside of the solution code.
 
-Please note the sample uses the preview version of .NET SDK for Commercial Marketplace source and refers to it as a sub-module.
+Please note the sample uses the preview version of .NET SDK for Commercial Marketplace source and refers to it as a submodule. Please see [git reference for cloning a project with submodules](https://www.git-scm.com/book/en/v2/Git-Tools-Submodules#_cloning_submodules:~:text=Cloning%20a%20Project%20with%20Submodules)
 
 You can also find a short
 [video published on the Azure Friday channel](https://www.youtube.com/watch?v=2Oaq5dHczMY)
 to see the experience and a brief explanation.
-
-## Contents
-
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
 
 ## Prerequisites
 
@@ -48,7 +37,6 @@ The sample requires .NET Core 3.1.*, and an Azure Storage account.
 In the sections below you will find:
 
 - [Azure Commercial Marketplace SaaS Offers Sample - Manual on-boarding of customers](#azure-commercial-marketplace-saas-offers-sample---manual-on-boarding-of-customers)
-  - [Contents](#contents)
   - [Prerequisites](#prerequisites)
   - [Table of contents](#table-of-contents)
   - [Integrating a Software as a Solution with Azure Marketplace](#integrating-a-software-as-a-solution-with-azure-marketplace)

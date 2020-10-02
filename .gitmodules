@@ -1,0 +1,3 @@
+[submodule "src/commercial-marketplace-sdk-dotnet"]
+	path = src/commercial-marketplace-sdk-dotnet
+	url = https://github.com/Azure/commercial-marketplace-sdk-dotnet.git
