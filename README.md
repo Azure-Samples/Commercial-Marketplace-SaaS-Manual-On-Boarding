@@ -20,7 +20,9 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 
-Some solutions require out-of-band on-boarding steps, such as validating a customer, running scripts manually for deploying resources needed for a new customer etc. This sample uses email notifications for a new customer, or any changes on the subscription status made outside of the solution code.
+Some solutions require out-of-band or manual on-boarding steps, such as validating a customer, running scripts manually for deploying resources needed for a new customer etc. This sample uses email notifications for a new customer, or any changes on the subscription status made outside of the solution code.
+
+Please note the sample uses the preview version of .NET SDK for Commercial Marketplace source and refers to it as a sub-module.
 
 You can also find a short
 [video published on the Azure Friday channel](https://www.youtube.com/watch?v=2Oaq5dHczMY)
@@ -45,7 +47,10 @@ The sample requires .NET Core 3.1.*, and an Azure Storage account.
 
 In the sections below you will find:
 
-- [A Sample for Azure Marketplace SaaS Integration](#a-sample-for-azure-marketplace-saas-integration)
+- [Azure Commercial Marketplace SaaS Offers Sample - Manual on-boarding of customers](#azure-commercial-marketplace-saas-offers-sample---manual-on-boarding-of-customers)
+  - [Contents](#contents)
+  - [Prerequisites](#prerequisites)
+  - [Table of contents](#table-of-contents)
   - [Integrating a Software as a Solution with Azure Marketplace](#integrating-a-software-as-a-solution-with-azure-marketplace)
     - [Landing Page](#landing-page)
       - [Azure AD Requirement: Multi-Tenant Application Registration](#azure-ad-requirement-multi-tenant-application-registration)

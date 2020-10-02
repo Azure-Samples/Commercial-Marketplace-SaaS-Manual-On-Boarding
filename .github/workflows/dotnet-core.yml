@@ -3,12 +3,11 @@ name: .NET Core
 on:
   push:
     branches: 
-    - master
+    - main
     - dev
-    - release/*
   pull_request:
     branches: 
-    - master
+    - main
     - dev
 
 jobs:
@@ -21,7 +20,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.1.202
+        dotnet-version: 3.1.*
     - name: Install dependencies
       run: dotnet restore 
       working-directory: ./src

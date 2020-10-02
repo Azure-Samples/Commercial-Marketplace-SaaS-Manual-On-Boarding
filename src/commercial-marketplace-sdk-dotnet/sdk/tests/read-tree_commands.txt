@@ -1,9 +1,0 @@
-git checkout dev
-git remote add azuresdk ..\azure-sdk-for-net\
-git fetch azuresdk
-git merge -s ours --no-commit azuresdk/master
-git read-tree --prefix=sdk/tests/Azure.Core.TestFramework  -u azuresdk/master:sdk/core/Azure.Core.TestFramework
-git read-tree --prefix=sdk/tests/core/Azure.Core/src/Shared  -u azuresdk/master:sdk/core/Azure.Core/src/Shared
-
-git commit -a -m "read-tree for Azure.Core.TestFramework"
-
