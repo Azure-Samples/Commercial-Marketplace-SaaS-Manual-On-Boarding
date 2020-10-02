@@ -19,7 +19,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@master       
+      run: git submodule update --init       
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
