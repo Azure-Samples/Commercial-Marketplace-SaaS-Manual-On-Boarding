@@ -81,36 +81,11 @@ namespace CommandCenter.Controllers
 
             foreach (var subscription in subscriptionsViewModel)
             {
-                // REMOVING THE FOLLOWING FOR THE SAKE OF PERFORMANCE, but keeping them here as reference
-                // subscription.PendingOperations =
-                //    (await this.fulfillmentClient.GetSubscriptionOperationsAsync(
-                //         requestId,
-                //         correlationId,
-                //         subscription.SubscriptionId,
-                //         cancellationToken)).Any(o => o.Status == OperationStatusEnum.InProgress);
                 var recordedSubscriptionOperations =
                     await this.operationsStore.GetAllSubscriptionRecordsAsync(
                         subscription.SubscriptionId,
                         cancellationToken).ConfigureAwait(false);
 
-                // REMOVING THE FOLLOWING FOR THE SAKE OF PERFORMANCE, but keeping them here as reference
-                // var subscriptionOperations = new List<SubscriptionOperation>();
-                // foreach (var operation in recordedSubscriptionOperations)
-                // {
-                //    var subscriptionOperation = await this.fulfillmentClient.GetSubscriptionOperationAsync(
-                //          operation.SubscriptionId,
-                //          operation.OperationId,
-                //          requestId,
-                //          correlationId,
-                //          cancellationToken);
-                //    if (subscriptionOperation != default(SubscriptionOperation))
-                //    {
-                //        subscriptionOperations.Add(subscriptionOperation);
-                //    }
-                // }
-
-                // subscription.PendingOperations |=
-                //    subscriptionOperations.Any(o => o.Status == OperationStatusEnum.InProgress);
                 subscription.ExistingOperations = (await this.operationsStore.GetAllSubscriptionRecordsAsync(
                     subscription.SubscriptionId,
                     cancellationToken).ConfigureAwait(false)).Any();
