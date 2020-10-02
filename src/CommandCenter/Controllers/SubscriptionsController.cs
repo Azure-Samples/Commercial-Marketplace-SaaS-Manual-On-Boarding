@@ -34,7 +34,7 @@ namespace CommandCenter.Controllers
         /// </summary>
         /// <param name="marketplaceClient">Marketplace API client.</param>
         /// <param name="operationsStore">Operations store.</param>
-        /// <param name="options">OSOlution options.</param>
+        /// <param name="options">Solution options.</param>
         public SubscriptionsController(
             IMarketplaceSaaSClient marketplaceClient,
             IOperationsStore operationsStore,
