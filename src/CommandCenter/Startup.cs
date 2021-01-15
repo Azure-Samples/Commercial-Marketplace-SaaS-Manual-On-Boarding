@@ -3,13 +3,13 @@
 
 namespace CommandCenter
 {
+    using System.Threading.Tasks;
     using CommandCenter.Authorization;
     using CommandCenter.AzureQueues;
     using CommandCenter.Mail;
     using CommandCenter.Marketplace;
     using CommandCenter.OperationsStore;
     using CommandCenter.Webhook;
-
     using Microsoft.AspNetCore.Authentication.Cookies;
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Authentication.OpenIdConnect;
@@ -24,7 +24,6 @@ namespace CommandCenter
     using Microsoft.Identity.Web;
     using Microsoft.Identity.Web.UI;
     using Microsoft.Marketplace.SaaS;
-    using System.Threading.Tasks;
     using Serilog;
 
     /// <summary>
