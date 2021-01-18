@@ -9,7 +9,7 @@ namespace CommandCenter
     /// <summary>
     /// Options for the command center.
     /// </summary>
-    public class CommandCenterOptions
+    public record CommandCenterOptions
     {
         /// <summary>
         /// Gets or sets base URL of the Command center.

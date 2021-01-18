@@ -20,8 +20,8 @@ namespace CommandCenter.Controllers
     /// Webhook controller.
     /// </summary>
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+
     // Specify the auth scheme to be used for logging on users. This is for supporting WebAPI auth
-    
     [RequireHttps]
     [Route("api/[controller]")]
     [ApiController]
