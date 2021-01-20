@@ -18,6 +18,7 @@ namespace CommandCenter.Controllers
     using Microsoft.Extensions.Options;
     using Microsoft.Marketplace.SaaS;
     using Microsoft.Marketplace.SaaS.Models;
+    using SendGrid.Helpers.Errors.Model;
 
     /// <summary>
     /// Landing page.
@@ -80,7 +81,7 @@ namespace CommandCenter.Controllers
             // Rest is implementation detail. In this sample, we chose allow the subscriber to change the plan for an activated subscriptio
             if (resolvedSubscription == default(ResolvedSubscription))
             {
-                return default;
+                throw new NotFoundException("Subscription not found");
             }
 
             var existingSubscription = resolvedSubscription.Subscription;
@@ -113,8 +114,8 @@ namespace CommandCenter.Controllers
                 SubscriptionStatus = existingSubscription.SaasSubscriptionStatus ?? SubscriptionStatusEnum.NotStarted,
                 PendingOperations = pendingOperations.Operations.Any(o => o.Status == OperationStatusEnum.InProgress),
             };
-
             if (provisioningModel != default)
+
             {
                 provisioningModel.FullName = (this.User.Identity as ClaimsIdentity)?.FindFirst("name")?.Value;
                 provisioningModel.Email = this.User.Identity.GetUserEmail();
